@@ -53,47 +53,19 @@ Sigue estos pasos para configurar la API localmente:
 
 A excepción de /Login y /Register, para el resto de endpoints es requerido el uso de un token que genera el /Login
 
-#### Autenticación
 
-- **POST /register**: Registra un nuevo usuario.
-    - **Body**:
-        ```json
-        {
-          "nombre": "usuario",
-          "contraseña": "contraseña"
-        }
-        ```
+#### Inicia Sesión en la api y regresa el token para el uso de la api
 
-- **POST /login**: Inicia sesión un usuario y genera un token para poder utilizar el resto de Endpoints.
-    - **Body**:
-        ```json
-        {
-          "nombre": "usuario",
-          "contraseña": "contraseña"
-        }
-        ```
+```http
+  POST /Login
+```
 
-#### Uniformes
+…| `Authorization`      | `string` | **token**. |
 
-- **GET /Uniforms**: Obtiene todos los uniformes de todos los niveles.
-- **GET /Primary**: Obtiene todos los uniformes de un nivel
-- **GET /Primary/Last**: Obtiene un total de uniformes de un nivel
-- **POST /Primary**: Crea un nuevo uniforme.
-    - **Body**:
-        ```json
-        {
-          "user": "usuario",
-          "proveedor": "proveedor",
-          "coste": 100,
-          "coste_total": 500,
-          "total": 5,
-          "talla": "M",
-          "genero": "Femenino",
-          "fecha_registro": "2024-01-01",
-          "ultima_entrada": "2024-01-01",
-          "anotacion": "Nota"
-        }
-        ```
+
+
+
+
 
 
 
