@@ -55,8 +55,8 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 
 #### Inicia Sesión en la api y regresa el token para el uso de la api
 
-```html
-    <span style="color:blue">POST /Login</span>
+```http
+    POST /Login
 ```
 
 | Parameter | Type     | Description                       |
