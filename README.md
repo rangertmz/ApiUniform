@@ -109,7 +109,7 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 ## Crea un nuevo uniforme
 
 ```http
-  GET /Primary/Last
+  POST /Primary/Last
 ```
 
 | Parameter | Type     | Description                       |
@@ -124,8 +124,8 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 | `fecha_registro`      | `string` | Fecha de registro del uniforme. Requerido. **Requerido** |
 | `ultima_entrada`      | `string` | Fecha de la última entrada del uniforme. Requerido. **Requerido** |
 | `anotacion`      | `string` | Anotaciones adicionales.**Opcional**. |
-    - **Body**:
-        ```json
+
+json
         {
           "user": "usuario",
           "proveedor": "proveedor",
