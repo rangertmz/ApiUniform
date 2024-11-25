@@ -53,15 +53,75 @@ Sigue estos pasos para configurar la API localmente:
 
 A excepción de /Login y /Register, para el resto de endpoints es requerido el uso de un token que genera el /Login
 
-
 #### Inicia Sesión en la api y regresa el token para el uso de la api
 
 ```http
   POST /Login
 ```
 
-…| `Authorization`      | `string` | **token**. |
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `nombre`      | `string` | Nombre del Usuario. **Requerido** |
+| `contraseña`      | `string` | Contraseña del Usuario. **Requerido** |
 
+#### Registra un usuario para acceder a la api (Only Test)
+
+```http
+  POST /Register
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `nombre`      | `string` | Nombre del Usuario. **Requerido** |
+| `contraseña`      | `string` | Contraseña del Usuario. **Requerido** |
+
+#### Obtiene todos los uniformes de todos los niveles
+
+```http
+  GET /Uniforms
+```
+
+| Header | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `Authorization`      | `string` | **token**. |
+
+
+#### Obtiene todos los uniformes de un nivel
+
+```http
+  GET /Primary
+```
+
+| Header | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `Authorization`      | `string` | **token**. |
+
+#### Obtiene un resumen total de uniformes
+
+```http
+  GET /Primary/Last
+```
+
+| Header | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `Authorization`      | `string` | **token**. |
+
+- **POST /Primary**: Crea un nuevo uniforme.
+    - **Body**:
+        ```json
+        {
+          "user": "usuario",
+          "proveedor": "proveedor",
+          "coste": 100,
+          "coste_total": 500,
+          "total": 5,
+          "talla": "M",
+          "genero": "Femenino",
+          "fecha_registro": "2024-01-01",
+          "ultima_entrada": "2024-01-01",
+          "anotacion": "Nota"
+        }
+        ```
 
 
 
