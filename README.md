@@ -55,8 +55,8 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 
 #### Inicia Sesión en la api y regresa el token para el uso de la api
 
-```http
-  POST /Login
+```html
+    <span style="color:blue">POST /Login</span>
 ```
 
 | Parameter | Type     | Description                       |
@@ -65,12 +65,13 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 | `contraseña`      | `string` | Contraseña del Usuario. **Requerido** |
 
 #### Registra un usuario para acceder a la api (Only Test)
-<span style="color:green">
+
+
     
 ```http
     POST /Register
 ```
-</span>
+
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
