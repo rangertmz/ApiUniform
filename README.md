@@ -65,10 +65,12 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 | `contraseña`      | `string` | Contraseña del Usuario. **Requerido** |
 
 #### Registra un usuario para acceder a la api (Only Test)
-
+<span style="color:green">
+    
 ```http
-    <span style="color:green">POST /Register</span>
+    POST /Register
 ```
+</span>
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
