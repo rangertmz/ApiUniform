@@ -106,7 +106,24 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 | :-------- | :------- | :-------------------------------- |
 | `Authorization`      | `string` | **token**. |
 
-- **POST /Primary**: Crea un nuevo uniforme.
+## Crea un nuevo uniforme
+
+```http
+  GET /Primary/Last
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `user`      | `string` | Usuario que crea el uniforme. **Requerido** |
+| `proveedor`      | `string` | Proveedor del uniforme **Requerido** |
+| `coste`      | `string` | Coste del uniforme. **Requerido** |
+| `coste_total`      | `string` | Coste total de los uniformes. **Requerido** |
+| `total`      | `string` | Cantidad total de uniformes. **Requerido** |
+| `talla`      | `string` | Talla del uniforme. **Requerido** |
+| `genero`      | `string` | Género del uniforme. **Requerido** |
+| `fecha_registro`      | `string` | Fecha de registro del uniforme. Requerido. **Requerido** |
+| `ultima_entrada`      | `string` | Fecha de la última entrada del uniforme. Requerido. **Requerido** |
+| `anotacion`      | `string` | Anotaciones adicionales.**Opcional**. |
     - **Body**:
         ```json
         {
