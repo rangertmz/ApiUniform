@@ -1,4 +1,8 @@
-# API-UNIFORM
+<div align="center">
+
+## API-UNIFORM
+
+</div>
 
 Bienvenido a la **API de Uniform-app**, una API desarrollada para gestionar uniformes escolares.
 
@@ -95,13 +99,19 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 - **controllers**: Controladores para manejar las solicitudes HTTP.
 - **routes**: Definición de las rutas de la API.
 
-## Licencia
+## Herramientas de desarrollo
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Contacto
+- ![Static Badge](https://img.shields.io/badge/MySQL-blue?logo=mysql&labelColor=gray)
+- ![Static Badge](https://img.shields.io/badge/NodeJS-green?logo=node.js&labelColor=gray)
+- ![Static Badge](https://img.shields.io/badge/ExpressJS-white?logo=express&labelColor=gray)
+- ![Static Badge](https://img.shields.io/badge/Postman-orange?logo=postman&labelColor=gray)
+- ![Static Badge](https://img.shields.io/badge/Typescript-blue?style=for-the-badge&logo=typescript&labelColor=gray) - Lenguaje de programación
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [GitHub](https://github.com/rangertmz).
+## Colaboradores
+
+| <a href="https://github.com/waldory01"><img src="https://avatars.githubusercontent.com/u/123262370?v=4" width="115" style="border-radius: 50%; border: none;"><br><sub>Oswaldo Juarez</sub></a> | <a href="https://github.com/rangertmz"><img src="https://avatars.githubusercontent.com/u/119755933?v=4" width="115" style="border-radius: 50%; border: none;"><br><sub>Andres Rangel</sub></a> | <a href="https://github.com/samychanrz"><img src="https://avatars.githubusercontent.com/u/132713784?v=4" width="115" style="border-radius: 50%; border: none;"><br><sub>Samy Chan</sub></a> | <a href="https://github.com/rodrigoantonio118"><img src="https://avatars.githubusercontent.com/u/133248383?v=4" width="115" style="border-radius: 50%; border: none;"><br><sub>Rodrigo Vazquez</sub></a> | <a href="https://github.com/guilloroot"><img src="https://avatars.githubusercontent.com/u/167589531?v=4" width="115" style="border-radius: 50%; border: none;"><br><sub>Guillermo Ramirez</sub></a> |
+| :---: | :---: | :---: | :---: | :---: |
 
 ---
 
