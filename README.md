@@ -67,7 +67,7 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 #### Registra un usuario para acceder a la api (Only Test)
 
 ```http
-  POST /Register
+    <span style="color:green">POST /Register</span>
 ```
 
 | Parameter | Type     | Description                       |
