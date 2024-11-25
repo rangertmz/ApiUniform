@@ -102,10 +102,10 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 ## Herramientas de desarrollo
 
 
-- ![Static Badge](https://img.shields.io/badge/MySQL-blue?logo=mysql&labelColor=gray)
-- ![Static Badge](https://img.shields.io/badge/NodeJS-green?logo=node.js&labelColor=gray)
-- ![Static Badge](https://img.shields.io/badge/ExpressJS-white?logo=express&labelColor=gray)
-- ![Static Badge](https://img.shields.io/badge/Postman-orange?logo=postman&labelColor=gray)
+- ![Static Badge](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql&labelColor=gray) - Base de datos utilizada
+- ![Static Badge](https://img.shields.io/badge/NodeJS-green?style=for-the-badge&logo=node.js&labelColor=gray) - Plataforma de servidor
+- ![Static Badge](https://img.shields.io/badge/ExpressJS-white?style=for-the-badge&logo=express&labelColor=gray) - Framework de servidor
+- ![Static Badge](https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman&labelColor=gray) - Herramienta de pruebas para la api
 - ![Static Badge](https://img.shields.io/badge/Typescript-blue?style=for-the-badge&logo=typescript&labelColor=gray) - Lenguaje de programación
 
 ## Colaboradores
