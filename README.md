@@ -125,7 +125,20 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
 | `ultima_entrada`      | `string` | Fecha de la última entrada del uniforme. Requerido. **Requerido** |
 | `anotacion`      | `string` | Anotaciones adicionales.**Opcional**. |
 
-- **Body**: ```json { "user": "usuario", "proveedor": "proveedor", "coste": 100, "coste_total": 500, "total": 5, "talla": "M", "genero": "Femenino", "fecha_registro": "2024-01-01", "ultima_entrada": "2024-01-01", "anotacion": "Nota" } ```
+- **Body**:
+  ```json {
+          "user": "usuario",
+          "proveedor": "proveedor",
+          "coste": 100,
+          "coste_total": 500,
+          "total": 5,
+          "talla": "M",
+          "genero": "Femenino",
+          "fecha_registro": "2024-01-01",
+          "ultima_entrada": "2024-01-01",
+          "anotacion": "Nota"
+          }
+   ```
 
 
 
