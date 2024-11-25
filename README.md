@@ -137,14 +137,7 @@ A excepción de /Login y /Register, para el resto de endpoints es requerido el u
           "fecha_registro": "2024-01-01",
           "ultima_entrada": "2024-01-01",
           "anotacion": "Nota"
-}
-  ```
-
-
-
-
-
-
+}```
 
 ## Estructura del Proyecto
 
