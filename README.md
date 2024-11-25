@@ -43,6 +43,8 @@ Sigue estos pasos para configurar la API localmente:
 
 ### Endpoints
 
+A excepción de /Login y /Register, para el resto de endpoints es requerido el uso de un token que genera el /Login
+
 #### Autenticación
 
 - **POST /register**: Registra un nuevo usuario.
